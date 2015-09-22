@@ -384,6 +384,10 @@ struct _Unity
 
 extern struct _Unity Unity;
 
+#ifdef __cplusplus
+extern "C" {
+#endif
+
 //-------------------------------------------------------
 // Test Suite Management
 //-------------------------------------------------------
@@ -507,6 +511,10 @@ void UnityAssertDoubleSpecial(const _UD actual,
                               const UNITY_LINE_TYPE lineNumber,
                               const UNITY_FLOAT_TRAIT_T style);
 #endif
+
+#ifdef __cplusplus
+}
+#endif // __cplusplus
 
 //-------------------------------------------------------
 // Error Strings We Might Need
