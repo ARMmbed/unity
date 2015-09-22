@@ -4,7 +4,7 @@
     [Released under MIT License. Please refer to license.txt for details]
 ============================================================================ */
 
-#include "unity.h"
+#include "unity/unity.h"
 #include <stddef.h>
 
 #define UNITY_FAIL_AND_BAIL   { Unity.CurrentTestFailed  = 1; longjmp(Unity.AbortFrame, 1); }
