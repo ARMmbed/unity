@@ -1,6 +1,6 @@
 {
   "name": "unity",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Unity Project - A Test Framework for C",
   "keywords": [
     "testing",
