@@ -5,7 +5,9 @@
   "keywords": [
     "testing",
     "C",
-    "unittest"
+    "unittest",
+    "mbed",
+    "mbed-official"
   ],
   "author": "Niklas Hauser <niklas.hauser@arm.com>",
   "repository": {
