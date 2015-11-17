@@ -8,8 +8,8 @@
 #include "mbed-test-async/unity_handler.h"
 #include <stddef.h>
 
-#define UNITY_FAIL_AND_BAIL   { mbed_test_unity_assert_failure(); }
-#define UNITY_IGNORE_AND_BAIL { mbed_test_unity_assert_failure(); }
+#define UNITY_FAIL_AND_BAIL   { UNITY_OUTPUT_CHAR('\n'); mbed_test_unity_assert_failure(); }
+#define UNITY_IGNORE_AND_BAIL { UNITY_OUTPUT_CHAR('\n'); mbed_test_unity_assert_failure(); }
 /// return prematurely if we are already in failure or ignore state
 #define UNITY_SKIP_EXECUTION  { if ((Unity.CurrentTestFailed != 0) || (Unity.CurrentTestIgnored != 0)) {return;} }
 #define UNITY_PRINT_EOL       { UNITY_OUTPUT_CHAR('\n'); }
