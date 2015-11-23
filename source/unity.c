@@ -5,7 +5,7 @@
 ============================================================================ */
 
 #include "unity/unity.h"
-#include "mbed-test-async/unity_handler.h"
+#include "utest/unity_handler.h"
 #include <stddef.h>
 
 #define UNITY_FAIL_AND_BAIL   { UNITY_OUTPUT_CHAR('\n'); utest_unity_assert_failure(); }
