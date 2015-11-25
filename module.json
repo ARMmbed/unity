@@ -1,6 +1,6 @@
 {
   "name": "unity",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Unity Project - A Test Framework for C",
   "keywords": [
     "testing",
@@ -22,6 +22,6 @@
     }
   ],
   "dependencies": {
-      "utest": "*"
+    "utest": "*"
   }
 }
