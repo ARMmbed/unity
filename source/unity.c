@@ -280,7 +280,7 @@ void UnityPrintMask(const _U_UINT mask, const _U_UINT number)
         }
         else
         {
-            UNITY_OUTPUT_CHAR('X');
+            UNITY_OUTPUT_CHAR('.');
         }
         current_bit = current_bit >> 1;
     }
