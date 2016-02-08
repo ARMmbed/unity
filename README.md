@@ -132,4 +132,14 @@ Note, that you can provide a custom failure message by appending `_MESSAGE` to a
 
 #### Double Precision Floating Point:
 
-These macros are disabled since double precision floating point is not supported by mbed OS.
+- `TEST_ASSERT_DOUBLE_WITHIN(delta, expected, actual)`
+- `TEST_ASSERT_EQUAL_DOUBLE(expected, actual)`
+- `TEST_ASSERT_EQUAL_DOUBLE_ARRAY(expected, actual, num_elements)`
+- `TEST_ASSERT_DOUBLE_IS_INF(actual)`
+- `TEST_ASSERT_DOUBLE_IS_NEG_INF(actual)`
+- `TEST_ASSERT_DOUBLE_IS_NAN(actual)`
+- `TEST_ASSERT_DOUBLE_IS_DETERMINATE(actual)`
+- `TEST_ASSERT_DOUBLE_IS_NOT_INF(actual)`
+- `TEST_ASSERT_DOUBLE_IS_NOT_NEG_INF(actual)`
+- `TEST_ASSERT_DOUBLE_IS_NOT_NAN(actual)`
+- `TEST_ASSERT_DOUBLE_IS_NOT_DETERMINATE(actual)`

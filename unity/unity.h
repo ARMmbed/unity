@@ -8,6 +8,11 @@
 #define UNITY_FRAMEWORK_H
 #define UNITY
 
+// support 64bit integers
+#define UNITY_SUPPORT_64
+// support double precision floating point
+#define UNITY_INCLUDE_DOUBLE
+
 #include "unity_internals.h"
 
 //-------------------------------------------------------
