@@ -17,7 +17,7 @@ int UNITY_OUTPUT_FLUSH(void);
 #endif
 
 /* Helpful macros for us to use here */
-#define UNITY_FAIL_AND_BAIL   { UNITY_OUTPUT_CHAR('\n'); utest_unity_assert_failure(); }
+#define UNITY_FAIL_AND_BAIL   { UNITY_OUTPUT_CHAR('\n'); utest_unity_assert_failure((unsigned *)&(Unity.CurrentTestFailed)); }
 #define UNITY_IGNORE_AND_BAIL { UNITY_OUTPUT_CHAR('\n'); utest_unity_ignore_failure(); }
 
 /* return prematurely if we are already in failure or ignore state */
@@ -993,7 +993,6 @@ void UnityAssertEqualString(const char* expected,
     _UU32 i;
 
     UNITY_SKIP_EXECUTION;
-
     /* if both pointers not null compare the strings */
     if (expected && actual)
     {
