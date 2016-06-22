@@ -1,6 +1,6 @@
 {
   "name": "unity",
-  "version": "3.0.1",
+  "version": "3.1.0",
   "description": "Unity Project - A Test Framework for C",
   "keywords": [
     "testing",
@@ -9,7 +9,7 @@
     "mbed",
     "mbed-official"
   ],
-  "author": "Niklas Hauser <niklas.hauser@arm.com>",
+  "author": "Anna Bridge <anna.bridge@arm.com>",
   "repository": {
     "url": "git@github.com:ARMmbed/unity.git",
     "type": "git"
