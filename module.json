@@ -20,8 +20,5 @@
       "url": "https://spdx.org/licenses/MIT",
       "type": "MIT"
     }
-  ],
-  "dependencies": {
-    "utest": "^1.5.0"
-  }
+  ]
 }
